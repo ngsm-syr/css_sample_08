@@ -2,9 +2,6 @@
 
 body {
   background-color: gray;
-  /* background: url(images/bg.jpg) no-repeat;
-  background-size: cover;
-  background-attachment: fixed; */
 } 
 
 body::before {
