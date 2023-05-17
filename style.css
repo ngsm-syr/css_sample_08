@@ -2,6 +2,9 @@
 
 body {
   background-color: gray;
+  /* background: url(images/bg.jpg) no-repeat;
+  background-size: cover;
+  background-attachment: fixed; */
 } 
 
 body::before {
@@ -39,12 +42,31 @@ main {
   height: 800px;
 }
 
-main p::before {
+.mark::before {
   content: "《";
 }
 
-main p::after {
+.mark::after {
   content: "》";
+}
+
+.arrow::before {
+  content: "";
+  display: inline-block;
+  border: 8px solid transparent;
+  border-left: 8px solid blue;
+}
+
+.download::after {
+  content: "Download";
+  display: inline-block;
+  background-color: darkblue;
+  color: white;
+  font-weight: bold;
+  padding: 2px;
+  margin-left: 10px;
+  border-radius: 2px;
+  font-size: 12px;
 }
 
 footer {
